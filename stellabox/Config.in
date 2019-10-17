@@ -1,0 +1,1 @@
+#source "$BR2_EXTERNAL_STELLABOX_PATH/package/<pkgname>/Config.in"

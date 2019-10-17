@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# Patches Xorg to use nodm
+#
+
+start() {
+	printf "Starting Xorg fix: "
+	chmod a-x /etc/init.d/S40xorg $0
+	[ $? = 0 ] && echo "OK" || echo "FAIL"
+}
+
+case "$1" in
+	start)
+		start
+	;;
+	stop)
+	;;
+	restart|reload)
+	;;
+	*)
+		echo "Usage: $0 {start|stop|restart}"
+	exit 1
+esac
