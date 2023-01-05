@@ -6,8 +6,8 @@ readonly build_dir="output"
 readonly buildroot_dir="buildroot"
 # points to buildroot website
 readonly download_base="https://buildroot.org/downloads"
-readonly tarext="tar.bz2"
-buildroot_version="2019.02.5" # suggested value: latest lts
+readonly tarext="tar.xz"
+buildroot_version="2022.02.8" # suggested value: latest lts
 
 # to aggregate more than one repo change this to "*/*" and copy
 # setup.sh to the directory containing all the layers
