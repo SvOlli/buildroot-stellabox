@@ -1,1 +1,2 @@
 #source "$BR2_EXTERNAL_STELLABOX_PATH/package/<pkgname>/Config.in"
+source "$BR2_EXTERNAL_STELLABOX_PATH/package/new_stella/Config.in"
